@@ -1,0 +1,4 @@
+gpiozero
+opencv-python
+numpy
+adafruit-circuitpython-motor

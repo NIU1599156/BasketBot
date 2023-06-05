@@ -1,4 +1,4 @@
-<img src="https://www.safbonwater.com/wp-content/uploads/2017/09/image-placeholder.jpg" align="right" width="300" alt="header picture"/>
+<img src="img/robot_photo.jpeg" align="right" width="250" alt="header picture"/>
 
 # Basket-Bot
 # Table of Contents
@@ -8,6 +8,7 @@
     * [Hardware](#hardware)
 * [How to use](#how-to-use)
 * [Authors](#authors)
+* [References](#references)
 
 # Description
 This robot will consist of a rotating base with a camera, a barrier that can be raised and lowered with a servo, and two wheels attached to motors that will move at the desired speed.
@@ -21,7 +22,9 @@ Once the target is centered, the necessary calculations will be made to determin
 - [Python 3.10.x or greater](https://www.python.org/)
 - [gpiozero](https://pypi.org/project/gpiozero/)
 - [opencv-python](https://pypi.org/project/opencv-python/)
-- Future software requirements...
+- [numpy](https://pypi.org/project/numpy/)
+- [adafruit-circuitpython-motor](https://pypi.org/project/adafruit-circuitpython-motor/)
+
 
 ## Hardware
 - Raspberry PI 3 B
@@ -34,10 +37,22 @@ Once the target is centered, the necessary calculations will be made to determin
 - Battery Holder
 
 # How to use
-TODO: Here goes the description of usage...
+1. Clone this repository
+2. Install python 3.10.x or greater if required
+3. Install required libraries with the help of this command:
+```
+pip install -r requirements.txt
+```
+4. Run python program "basketbot.py"
 
 # Authors
 - Oriol Camps Isus
 - Martí Bruix Fernández
 - Gabriel Chirinos Sulcany
 - Iván Peñarando Martínez
+
+# References
+This project has been inspired by the following Internet concepts:
+
+- https://wiki.purduesigbots.com/hardware/shooting-mechanisms/flywheel
+- https://www.youtube.com/watch?v=l7MSg4jLTRk
