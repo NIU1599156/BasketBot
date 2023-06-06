@@ -7,6 +7,7 @@
     * [Software](#software)
     * [Hardware](#hardware)
 * [How to use](#how-to-use)
+* [Youtube link](#youtube-link)
 * [Authors](#authors)
 * [References](#references)
 
@@ -64,6 +65,9 @@ On the other hand, for the motor controller, we have powered it using the 5V pin
 pip install -r requirements.txt
 ```
 4. Run python program "basketbot.py"
+
+# Youtube Link
+https://youtu.be/8wZxZwybr60
 
 # Authors
 - Oriol Camps Isus
